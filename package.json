@@ -1,10 +1,11 @@
 {
 
-  "homepage": "https://cuciula31.github.io/s10web/",
-
+  
   "name": "s10-web",
 
   "version": "0.1.0",
+
+  "homepage": "https://cuciula31.github.io/s10web/",
 
   "private": false,
 
