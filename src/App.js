@@ -10,7 +10,7 @@ import Resources from './pages/Resources';
 
 function App() {
   return (
-    <Router >
+    <Routes>
       <Route exact path='/home' element = {<Home/>}/>
       <Route exact path='/noutati' element = {<News/>}/>
       <Route exact path='/organizare' element = {<Managment/>}/>
@@ -19,7 +19,7 @@ function App() {
       <Route exact path='/resurse' element = {<Resources/>}/>
       <Route path = '*' element = {<Home/>}/>
       <Route exact path='/' element = {<Home/>}/>
-    </Router>
+    </Routes>
 
   );
 }
